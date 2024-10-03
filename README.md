@@ -1,24 +1,49 @@
-# Challenge ONE | Front End -  Portafolio
+# Challenge ONE | Front End - Portafolio Personal
 
-<p align="center" >
-     <img width="600" heigth="600" src="https://user-images.githubusercontent.com/101413385/169097543-d5ada41e-7db8-481d-9d89-cef4efdf7e05.png">
-</p>
+     <img width="600" height="600" src="https://user-images.githubusercontent.com/101413385/169097543-d5ada41e-7db8-481d-9d89-cef4efdf7e05.png" alt="Logo Challenge ONE">
 
+## ¡Bienvenido al proyecto base del Portafolio Personal!
 
-### ¡Bienvenido al proyecto base del Portafolio ! Pasos principales:
+Este es el punto de partida para crear tu portafolio y destacar tus habilidades como desarrollador Front End. 
+
 ---
-#### Marca este proyecto con una estrella ⭐
-#### Sigue las lecciones y las instrucciones de contenido 📚
 
-### Analisando el repositorio!
+## ¿Qué encontrarás en este proyecto?
+
+Este repositorio te proporciona una estructura inicial para que comiences a trabajar en tu portafolio. ¡Siéntete libre de personalizarlo y hacerlo único! Aquí encontrarás:
+
+### 📄 **Archivos importantes**
+
+- **`index.html`**: Un archivo HTML listo para usar, con todas las secciones necesarias y comentarios que explican su estructura. Si te animas, puedes modificarlo o crear tu propio HTML desde cero.
+  
+- **`style.css`**: Un archivo CSS que contiene los estilos iniciales del portafolio. Puedes seguir estas instrucciones de estilo o personalizarlo para reflejar tu propio estilo.
+
+- **`script.js`**: Un archivo JavaScript vacío que puedes utilizar para agregar funcionalidades a tu portafolio, como la validación del formulario de contacto. *Nota: La validación es un desafío adicional y no es obligatoria.*
+
 ---
-### Este repositorio base es una sugerencia inicial, en caso de que aún no tengas un diseño que refleje tu estilo y personalidad. Siéntete libre de modificar tu portafolio como desees, aquí encontrarás:
-#### 🔹index.html: Documento HTML concluído que puedes utilizar en tu proyecto. Las fuentes, los archivos CSS y Javascript ya están referenciados en el documento y todas las secciones contienen comentários que te ayudan a entender la estructura. Si quieres, puedes aventurarte y contruir tu propio HTML.
-#### 🔹style.css: Documento de CSS con instrucciones de estilo y algunas sugerencias de desarrollo.
-#### 🔹script.js: Documento vacío dónde puedes desarrollar tu lógica para validar el formulário, ESTA VALIDACIÓN ES CONSIDERADA UN DESAFÍO EXTRA POR LO QUE NO ES OBLIGATÓRIA SU IMPLEMENTACIÓN.
 
-#### Cuando clones o descargues el proyecto base, tendrás la siguiente presentación:
-<p align="center" >
-     <img width="600" heigth="600" src="https://user-images.githubusercontent.com/101413385/169064699-f268715c-822c-4335-b066-97a1bc1ea8e1.png">
-</p>
+## 🚀 **Pasos para comenzar**
 
+1. **Marca este proyecto con una estrella ⭐**: Si te ha sido útil, no dudes en apoyarlo con una estrella para motivar a más personas a participar.
+
+2. **Sigue las lecciones y el contenido 📚**: Utiliza el material proporcionado para aprender y aplicar los conceptos en tu portafolio.
+
+---
+
+## 🎨 **Personaliza tu portafolio**
+
+Este repositorio es solo una sugerencia de base. ¡Aprovecha para modificar el diseño, colores y disposición de los elementos para que refleje tu estilo y personalidad!
+
+---
+
+## 🤓 **Desafío extra**
+
+Si quieres ir más allá, te propongo un reto adicional: **Implementa la validación del formulario** utilizando JavaScript. Esto te permitirá mejorar la experiencia del usuario y añadir una capa de interactividad a tu proyecto.
+
+---
+
+## 👨‍💻 **Recursos adicionales**
+
+- [Documentación HTML](https://developer.mozilla.org/es/docs/Web/HTML)
+- [Guía de CSS](https://developer.mozilla.org/es/docs/Web/CSS)
+- [Introducción a JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript)
