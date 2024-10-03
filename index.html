@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Fuente del Proyecto Raleway -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <title>Portafolio Luisa Maria Martinez Ramirez</title>
+</head>
+
+<body>
+    <!-- Menú -->
+    <header class="cabecera">
+        <img class="cabecera__logo" src="assets/vector.png" alt="Logo">
+        <h1 class="cabecera__titulo">LuaMartz</h1>
+        <nav class="navegacion">
+            <ul class="navegacion__lista">
+                <li class="navegacion__elemento"><a href="#sobre-mi">Sobre mí</a></li>
+                <li class="navegacion__elemento"><a href="#habilidades">Habilidades</a></li>
+                <li class="navegacion__elemento"><a href="#aficiones">Aficiones</a></li>
+                <li class="navegacion__elemento"><a href="#formacion">Formación</a></li>
+                <li class="navegacion__elemento"><a href="#proyectos">Proyectos</a></li>
+                <li class="navegacion__elemento"><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de Presentación -->
+    <section class="presentacion">
+        <img class="presentacion__foto" src="assets/profile.png" alt="Foto de perfil">
+        <div class="presentacion__contenedor">
+            <h2 class="presentacion__titulo">Hola, soy Luisa Maria Martinez Ramirez</h2>
+            <p class="presentacion__subtitulo">Soy diseñadora digital y desarrolladora web con experiencia en animación digital y desarrollo full-stack. Creo soluciones visualmente atractivas y funcionales para proyectos digitales.</p>
+            <ul class="redes">
+                <li class="redes__img"><a href="https://github.com/tu_usuario">Github <img src="assets/arrow.png" alt="Flecha"></a></li>
+                <li class="redes__img"><a href="https://linkedin.com/in/tu_usuario">LinkedIn <img src="assets/arrow.png" alt="Flecha"></a></li>
+                <li class="redes__img"><a href="https://instagram.com/tu_usuario">Instagram <img src="assets/arrow.png" alt="Flecha"></a></li>
+                <li class="redes__img"><a href="assets/CV.pdf" download>Currículo <img src="assets/arrow.png" alt="Flecha"></a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Sección sobre mí -->
+    <section class="sobre-mi" id="sobre-mi">
+        <h2 class="sobre-mi__titulo">Sobre mí</h2>
+        <p class="sobre-mi__texto">Soy una diseñadora digital y desarrolladora web con un año de experiencia en el sector, enfocada en crear experiencias visuales y técnicas que reflejan la innovación y creatividad en cada proyecto.</p>
+        <p class="sobre-mi__texto">Mi formación en animación digital y desarrollo web full-stack me permite combinar el arte con la tecnología, logrando resultados de alto impacto.</p>
+    </section>
+
+    <!-- Sección de Habilidades -->
+    <section class="habilidades" id="habilidades">
+        <h2 class="habilidades__titulo">Habilidades</h2>
+        <ul class="habilidades__lista">
+            <li class="habilidades__elemento">
+                <img class="habilidades__icono" src="assets/html.png" alt="HTML">
+                <p class="habilidades__nombre">HTML 5</p>
+            </li>
+            <li class="habilidades__elemento">
+                <img class="habilidades__icono" src="assets/js_icon.png" alt="JavaScript">
+                <p class="habilidades__nombre">JavaScript</p>
+            </li>
+            <li class="habilidades__elemento">
+                <img class="habilidades__icono" src="assets/react_icon.png" alt="React">
+                <p class="habilidades__nombre">React</p>
+            </li>
+            <li class="habilidades__elemento">
+                <img class="habilidades__icono" src="assets/css_icon.png" alt="CSS">
+                <p class="habilidades__nombre">CSS</p>
+            </li>
+            <li class="habilidades__elemento">
+                <img class="habilidades__icono" src="assets/blender_icon.png" alt="Blender">
+                <p class="habilidades__nombre">Blender</p>
+            </li>
+            <li class="habilidades__elemento">
+                <img class="habilidades__icono" src="assets/figma_icon.png" alt="Figma">
+                <p class="habilidades__nombre">Figma</p>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Sección de Aficiones -->
+    <section class="aficiones" id="aficiones">
+        <h2 class="aficiones__titulo">Aficiones</h2>
+        <ul class="aficiones__lista">
+            <li class="aficiones__elemento">
+                <img class="aficiones__icono" src="assets/skate_icon.png" alt="Patinaje">
+                <p class="aficiones__nombre">Patinaje</p>
+            </li>
+            <li class="aficiones__elemento">
+                <img class="aficiones__icono" src="assets/guitar_icon.png" alt="Tocar bajo">
+                <p class="aficiones__nombre">Tocar bajo</p>
+            </li>
+            <li class="aficiones__elemento">
+                <img class="aficiones__icono" src="assets/camera_icon.png" alt="Fotografía">
+                <p class="aficiones__nombre">Fotografía</p>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Sección de Formación académica -->
+    <section class="formacion" id="formacion">
+        <h2 class="formacion__titulo">Formación académica</h2>
+        <ul class="formacion__lista">
+            <li class="formacion__elemento">
+                <img class="formacion__icono" src="assets/unal_logo.png" alt="Universidad Nacional de Colombia">
+                <div>
+                    <h3 class="formacion__nombre">Animación Digital</h3>
+                    <p class="formacion__detalle">Diplomado - Universidad Nacional de Colombia</p>
+                </div>
+            </li>
+            <li class="formacion__elemento">
+                <img class="formacion__icono" src="assets/alura_logo.png" alt="Alura">
+                <div>
+                    <h3 class="formacion__nombre">Desarrollo Full-Stack</h3>
+                    <p class="formacion__detalle">2023 - Alura Latam</p>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Sección de Proyectos -->
+    <section class="proyectos" id="proyectos">
+        <h2 class="proyectos__titulo">Experiencia Profesional</h2>
+        <div class="proyectos__contenedor">
+            <h3 class="proyectos__nombre">C&B Papeles de Colombia</h3>
+            <p class="proyectos__descripcion">Encargada de renovar el sitio web mediante WordPress, mejorando la funcionalidad y experiencia de usuario.</p>
+        </div>
+        <div class="proyectos__contenedor">
+            <h3 class="proyectos__nombre">Chromatic Cakes</h3>
+            <p class="proyectos__descripcion">Diseñé un manual de marca y optimicé el diseño UX/UI, mejorando la interacción de los usuarios en la plataforma.</p>
+        </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section class="contacto" id="contacto">
+        <h2 class="contacto__titulo">Contacto</h2>
+        <form class="contacto__formulario">
+            <input class="contacto__campo" type="text" placeholder="Nombre">
+            <input class="contacto__campo" type="email" placeholder="Correo Electrónico">
+            <textarea class="contacto__campo contacto__campo--textarea" placeholder="Mensaje"></textarea>
+            <button class="contacto__boton" type="submit">Enviar</button>
+        </form>
+    </section>
+</body>
+    <script src="script.js"></script>
+</html>
